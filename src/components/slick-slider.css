@@ -1,0 +1,41 @@
+section.slider {
+   padding-bottom: 50px;
+}
+
+section.slider  .slick-list  .slick-track > div.slick-slide{
+   padding-right: 5px;
+   padding-left: 5px;
+
+}
+.slick-slide {
+    width: 32%
+}
+.slick-slide > div {
+    width: 100%;
+    margin-right: 10px;
+}
+section.slider .card {
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 720px){
+
+    section.slider {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 599px){
+    section.slider {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .slick-prev::before, .slick-next::before{
+        font-size: 16px;
+    }
+}

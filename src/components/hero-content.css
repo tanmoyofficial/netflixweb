@@ -1,0 +1,39 @@
+.hero-content {
+    padding: 50px 0;
+}
+
+.hero-content .content h1.title{
+    font-family: var(--default-fonts);
+    font-size: 2.75rem;
+    color: var(--color-light);
+    line-height: 1.1;
+    font-weight: 900;
+    margin-top: 1vw;
+    margin-bottom: 10px;
+}
+
+.hero-content .content div.dec {
+    margin-top: 20px;
+}
+
+.hero-content .content div.dec p{
+    font-family: var(--default-fonts);
+    font-size: 19px;
+    color: var(--color-light);
+    line-height: 1.3;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: calc(600px)){
+    .hero-content .content {
+        max-width: 598px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .hero-content .content div.dec p {
+        font-size: 16px;
+      }
+}

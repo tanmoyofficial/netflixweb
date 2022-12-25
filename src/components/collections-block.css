@@ -1,0 +1,28 @@
+.collections-block {
+    margin-bottom: 50px;
+}
+
+.colloctions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.title h2 {
+    font-family: var(--default-fonts);
+    font-size: 20px;
+    color: var(--color-light);
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 0;
+}
+
+.collections-block .content {
+    margin-bottom: 50px;
+}
